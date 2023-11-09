@@ -41,7 +41,7 @@ This dashboard includes:
 
 The app has also been deployed on Heroku: [https://huggingface.co/spaces/nickhand/philadelphia-shootings-app](https://huggingface.co/spaces/nickhand/philadelphia-shootings-app)
 
-![App #2 Dashboard](./assets/dashboard_screenshot_app2.png?modified=123)
+![App #2 Dashboard](./assets/dashboard_screenshot_app2.png)
 ![App #2 Dashboard](./assets/dashboard_screenshot_app3.png)
 
 ## Deploying this app on Hugging Face
@@ -50,11 +50,14 @@ This section describes how to deploy a Panel app to Hugging Face. See the [Panel
 
 Hugging Face makes deployment of arbitrary apps including Panel apps and dashboards very easy and provides a free tier to get you started. This makes it a great starting point for users not too familiar with web development and deployment.
 
-To get started, click on the following URL. This will create a new "space" (like a GitHub repository) on 
-your Hugging Face account and deploy an example Panel dashboard. It will add code for the dashboard to the `app.py` file in the space.
-If you don't have an account yet, it will prompt you to sign up when you click on the link below.
+To get started, click on the following URL:
 
-[https://huggingface.co/new-space?template=Panel-Org/panel-template](https://huggingface.co/new-space?template=Panel-Org/panel-template)
+[https://huggingface.co/new-space](https://huggingface.co/new-space)
+
+Once you load the above page, select the "Docker" Space SDK and then select the "Panel" template below it.
+
+This will create a new "space" (like a GitHub repository) on 
+your Hugging Face account and deploy an example Panel dashboard. It will add code for the dashboard to the `app.py` file in the space. If you don't have an account yet, it will prompt you to sign up when you click on the link below.
 
 We can edit the template files in the browser to deploy our own dashboard instead of the example dashboard. 
 Navigate to the "Files" tab in the space and we'll modify these files so our own dashboard will deploy.
